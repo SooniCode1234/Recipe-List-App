@@ -8,7 +8,6 @@
 import Foundation
 
 class DataService {
-
     static func getLocalData() -> [Recipe] {
         let pathString = Bundle.main.path(forResource: "recipes", ofType: "json")
 

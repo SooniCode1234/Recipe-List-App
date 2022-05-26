@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct RecipeListView: View {
-    
     @StateObject var model = RecipeModel()
-    
+
     var body: some View {
         NavigationView {
             List(model.recipes) { r in
